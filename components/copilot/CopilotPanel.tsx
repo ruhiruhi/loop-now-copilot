@@ -307,7 +307,7 @@ export function CopilotPanel({
           <button
             type="submit"
             disabled={busy || input.trim().length === 0}
-            className="border border-zinc-700 px-3 py-1.5 text-sm text-zinc-100 disabled:cursor-not-allowed disabled:text-zinc-600"
+            className="border border-zinc-700 px-3 py-1.5 text-sm text-zinc-100 disabled:text-zinc-600"
           >
             {busy ? "Sending" : "Send"}
           </button>
